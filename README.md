@@ -7,7 +7,7 @@ This is an e-commerce back end application
 ## Installation
 
 ## Visuals
-<!--> INSERT VIDEO OF APPLICATION FUNCTION <!-->
+walkthrough-video.mp4
 
 ## Contribution
 
