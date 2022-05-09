@@ -25,7 +25,7 @@ CREATE TABLE Tag (
   `tag_name` varchar(32) NOT NULL
 );
 
-CREATE TABLE ProductTag (
+CREATE TABLE Product_Tag (
   `id` int NOT NULL AUTO_INCREMENT PRIMARY KEY,
   `product_id` int NOT NULL,
   `tag_id` int NOT NULL

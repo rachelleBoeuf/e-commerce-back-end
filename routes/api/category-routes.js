@@ -36,16 +36,14 @@ router.get("/:id", async (req, res) => {
   }
 });
 
-router.post("/", async (req, res) => {
+router.post("/",  async (req, res) => {
   // create a new category
   try {
     //first check if our category already exists
-    let data = await Category.findOne({ where: { category: req.body.name } });
+    let data = await Category.findOne({ where: req.body });
     if (data === null) {
       //no record found so create a new record
-      data = await Category.create({
-        category_name: req.body.name,
-      });
+      data = await Category.create(req.body);
     }
 
     res.status(200).json(data);
@@ -54,12 +52,37 @@ router.post("/", async (req, res) => {
   }
 });
 
-router.put("/:id", (req, res) => {
+router.put("/:id", async (req, res) => {
   // update a category by its `id` value
+  // create a new category
+  try {
+    await Category.update(req.body, {
+      where: {
+        id: req.params.id,
+      },
+    })
+    .then(() => { res.status(200).json({"success": true}) })
+    .catch((err) => {
+      console.log(err);
+      res.status(400).json(err);
+    });
+  } catch (err) {
+    res.status(500).json(err);
+  }
 });
 
-router.delete("/:id", (req, res) => {
+router.delete("/:id", async (req, res) => {
   // delete a category by its `id` value
+  Category.destroy({
+    where: {
+      id: req.params.id,
+    },
+  })
+  .then(() => { res.status(200).json({"success": true}) })
+  .catch((err) => {
+    console.log(err);
+    res.status(400).json(err);
+  });
 });
 
 module.exports = router;
