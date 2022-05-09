@@ -6,7 +6,7 @@ router.get("/", async (req, res) => {
   //find all categories
   try {
     //first: pull our category data
-    const data = await Category.findAll();
+    const data = await Category.findAll({ include: Product });
     if (!data) {
       res.status(404).json({ message: "No Categories Exists" });
       return;
