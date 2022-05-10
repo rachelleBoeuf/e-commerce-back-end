@@ -6,12 +6,12 @@ This is an e-commerce back end application
 
 ## Installation
 
-[SQL demo Video]("https://drive.google.com/file/d/1AqGVy2lEXIHPKKc5MB5kZY5_gIq0Q1fT/preview")
+[SQL demo Video](https://www.youtube.com/watch?v=Elw23TBAkuo)
+
+[INSOMNIA demo Video](https://www.youtube.com/watch?v=7IAyEiXbg3I&ab_channel=RachelLeBoeuf)
 
 
 
-
-<iframe src="https://drive.google.com/file/d/1HVP_t4OlSgcSwjr6P-S3zdrffMw-_jOQ/preview" width="640" height="480"></iframe>
 
 ## Visuals
 
