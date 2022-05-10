@@ -6,7 +6,7 @@ This is an e-commerce back end application
 
 ## Installation
 
-[SQL demo Video]("https://drive.google.com/file/d/1AqGVy2lEXIHPKKc5MB5kZY5_gIq0Q1fT/preview)
+[SQL demo Video]("https://drive.google.com/file/d/1AqGVy2lEXIHPKKc5MB5kZY5_gIq0Q1fT/preview")
 
 
 
