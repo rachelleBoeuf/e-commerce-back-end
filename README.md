@@ -7,7 +7,8 @@ This is an e-commerce back end application
 ## Installation
 
 ## Visuals
-walkthrough-video.mp4
+
+<iframe src="https://drive.google.com/file/d/1AqGVy2lEXIHPKKc5MB5kZY5_gIq0Q1fT/preview" width="640" height="480"></iframe>
 
 ## Contribution
 
