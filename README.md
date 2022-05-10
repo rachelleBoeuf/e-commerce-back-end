@@ -6,7 +6,8 @@ This is an e-commerce back end application
 
 ## Installation
 
-<iframe src="https://drive.google.com/file/d/1AqGVy2lEXIHPKKc5MB5kZY5_gIq0Q1fT/preview" width="640" height="480"></iframe>
+[SQL demo Video]("https://drive.google.com/file/d/1AqGVy2lEXIHPKKc5MB5kZY5_gIq0Q1fT/preview)
+
 
 
 
